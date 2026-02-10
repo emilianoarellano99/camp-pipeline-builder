@@ -32,16 +32,40 @@ Instead of spending hours manually configuring CAMP pipelines, you can now:
 
 ## Installation
 
-### Prerequisites
+### Quick Install (Recommended)
+
+**Prerequisites:** Claude Code CLI installed
+
+Run this one-liner in your terminal:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/emilianoarellano99/camp-pipeline-builder/main/install.sh | bash
+```
+
+This will:
+- Install to `~/.camp-mcp-server`
+- Set up Python environment
+- Register with Claude Code
+- Verify installation
+
+Then restart Claude Code and you're ready!
+
+---
+
+### Manual Installation
+
+If you prefer to install manually:
+
+**Prerequisites:**
 - Python 3.8+
 - Claude Code CLI installed
 
-### Setup
+**Steps:**
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
-cd camp-mcp-server
+git clone https://github.com/emilianoarellano99/camp-pipeline-builder.git
+cd camp-pipeline-builder
 ```
 
 2. Create virtual environment and install dependencies:
@@ -130,5 +154,5 @@ Internal Instacart tool
 
 ## Contact
 
-Built by Emiliano Arellano (Enrichment Operations II)
+Built by Emiliano Arellano
 Feedback and iterations welcome!
